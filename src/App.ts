@@ -36,19 +36,14 @@ class App {
   private intializeGraphQL() {
     console.log('initializing graphql...');
     let schemaManageer = new SchemaManager();
-    // let rootValue = schemaManageer.ROOT;
+    let rootValue = schemaManageer.ROOT;
     let schema = schemaManageer.SCHEMAS;
-    // new SchemaManager().get();
-    // this.express.use('/graphql', graphqlHttp({
-    //   rootValue,
-    //   schema,
-    //   graphiql: process.env.PRODUCTION !== 'PRODUCTION' ? true : false
-    // }));
-    this.express.use('/graphql', graphqlHttp(((request: Express.Request, response: Express.Response, param: any) => ({
-      rootValue: SchemaManager.getROOT(request, response, param),
+    this.express.use('/graphql', graphqlHttp({
+      rootValue,
       schema,
       graphiql: process.env.PRODUCTION !== 'PRODUCTION' ? true : false
-    }))));
+    }));
+
   }
 
   private createRandomUSers() {
