@@ -1,0 +1,12 @@
+.idea/
+.vscode/
+node_modules/
+build/
+tmp/
+temp/
+.directory
+package-lock.json
+ormconfig.json
+logs/
+*.code-workspace
+MMC_Server.code-workspace
