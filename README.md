@@ -1,5 +1,5 @@
 # GraphQL_POC
-The following repo is a proof of concept built to explore in depth GraphQL. It's built on top of graphql.js and express-graphql.
+The following repo is a proof of concept built to explore in depth GraphQL. It's built on top of graphql.js and express-graphql. Its presentation can be found at: https://drive.google.com/open?id=1u3k0rPZwdEmFZvMMchBfL854Vic8aIXIkv4TY6W4oKU
 
 ## Areas Yet To Explore
 1. Authentication and Authorization.
