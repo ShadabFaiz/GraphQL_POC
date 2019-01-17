@@ -1,0 +1,38 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": false,
+    "lib": [
+      "es5",
+      "es6",
+      "es2017",
+      "dom"
+    ],
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    // Rules for better maintainability of code.
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noEmit": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noEmitOnError": true,
+    "alwaysStrict": true,
+    // Styleguide
+    "pretty": true,
+    "removeComments": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

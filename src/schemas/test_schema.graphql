@@ -1,0 +1,14 @@
+type User {
+    username: String,
+    firstname: String,
+    lastname: String,
+    emailId: String,
+    gender: String,
+    age: Int,
+    userId: String
+}
+
+
+export type custom implements User {
+    name: String!;
+}
